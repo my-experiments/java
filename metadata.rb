@@ -51,3 +51,14 @@ attribute "java/jdk_version",
           :description =>  "Jdk version",
           :type => 'string'
 
+attribute "java/jdk/8/x86_64/url",
+          :description =>  "Download URL",
+          :type => 'string'
+
+attribute "java/install_flavor",
+          :description =>  "Oracle or openjdk",
+          :type => 'string'
+
+attribute "java/oracle/accept_oracle_download_terms",
+          :description =>  "Accept terms conditions",
+          :type => 'string'
