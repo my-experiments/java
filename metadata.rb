@@ -55,6 +55,10 @@ attribute "java/jdk/8/x86_64/url",
           :description =>  "Download URL",
           :type => 'string'
 
+attribute "java/jdk/8/x86_64/checksum",
+          :description =>  "MD5 checksum for the jdk binary",
+          :type => 'string'
+
 attribute "java/install_flavor",
           :description =>  "Oracle or openjdk",
           :type => 'string'
