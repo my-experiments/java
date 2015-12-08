@@ -1,4 +1,4 @@
 dependencies:
-  - recipe:java::install
+  - recipe: java::install
   - recipe: java::default
 
