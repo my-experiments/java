@@ -45,3 +45,9 @@ depends 'apt'
 suggests 'homebrew'
 suggests 'windows'
 suggests 'aws'
+
+
+attribute "java/jdk_version",
+          :description =>  "Jdk version",
+          :type => 'string'
+
