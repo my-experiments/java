@@ -7,4 +7,5 @@ group :integration do
   cookbook 'windows', '~> 1.12'
   cookbook 'homebrew', '~> 1.12'
   cookbook 'test_java', path: 'test/fixtures/cookbooks/test_java'
+  cookbook 'apt', '~> 2.6.0'
 end
